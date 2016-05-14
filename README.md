@@ -6,7 +6,7 @@ third party boards to the Arduino v1.6.4+ IDE.
 Add the following URL to arduino, to enable MySensors boards in the arduino
 IDE
 
-https://raw.github.com/mysensors/ArduinoBoards//master/package_mysensors.org_index.json
+https://raw.githubusercontent.com/mysensors/ArduinoBoards/master/package_mysensors.org_index.json
 
 ## List of 3rd Party Boards
 

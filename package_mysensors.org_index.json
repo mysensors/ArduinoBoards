@@ -1,0 +1,86 @@
+{
+  "packages": [
+    {
+      "maintainer": "MySensors",
+      "help": {
+        "online": "https://forum.MySensors.org"
+      },
+      "websiteURL": "https://MySensors.org",
+      "platforms": [],
+      "tools": [],
+      "email": "TechSupport@MySensors.org",
+      "name": "MySensors"
+    },
+    {
+      "maintainer": "MySensors",
+      "help": {
+        "online": "https://forum.MySensors.org"
+      },
+      "websiteURL": "https://MySensors.org",
+      "platforms": [
+        {
+          "category": "Contributed",
+          "help": {
+            "online": "https://forums.mysensors.org"
+          },
+          "url": "https://github.com/mysensors/ArduinoBoards/boards/mysensors-avr-1.0.0.tar.bz2",
+          "checksum": "SHA-256:a2659d411494b2902e9e07365a02833db37814c1a0d988e4b550a04285910756",
+          "name": "MySensors AVR Boards",
+          "version": "1.0.0",
+          "architecture": "avr",
+          "archiveFileName": "mysensors-avr-1.0.0.tar.bz2",
+          "size": "141083",
+          "toolsDependencies": [],
+          "boards": [
+            {
+              "name": "Sensebender Micro"
+            }
+          ]
+        },
+        {
+          "category": "Contributed",
+          "name": "MySensors SAMD Boards",
+          "url": "https://github.com/mysensors/ArduinoBoards/boards/mysensors-samd-1.0.0.tar.bz2",
+          "checksum": "SHA-256:5301baced7bdb62db451835395904bd2b3027c3b507fa67ed4d0f9b924c09411",
+          "help": {
+            "online": "https://forums.mysensors.org"
+          },
+          "version": "1.0.0",
+          "architecture": "samd",
+          "archiveFileName": "mysensors-samd-1.0.0.tar.bz2",
+          "boards": [
+            {
+              "name": "Sensebender GW"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.6.1-arduino",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "version": "4.0.0-atmel",
+              "name": "CMSIS"
+            }
+          ],
+          "size": "142472"
+        }
+      ],
+      "tools": [],
+      "email": "TechSupport@MySensors.org",
+      "name": "MySensors"
+    }
+  ]
+}

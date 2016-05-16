@@ -3,20 +3,9 @@
     {
       "maintainer": "MySensors",
       "help": {
-        "online": "https://forum.MySensors.org"
+        "online": "https://forum.mysensors.org"
       },
-      "websiteURL": "https://MySensors.org",
-      "platforms": [],
-      "tools": [],
-      "email": "TechSupport@MySensors.org",
-      "name": "MySensors"
-    },
-    {
-      "maintainer": "MySensors",
-      "help": {
-        "online": "https://forum.MySensors.org"
-      },
-      "websiteURL": "https://MySensors.org",
+      "websiteURL": "https://mysensors.org",
       "platforms": [
         {
           "category": "Contributed",
@@ -79,7 +68,7 @@
         }
       ],
       "tools": [],
-      "email": "TechSupport@MySensors.org",
+      "email": "info@mysensors.org",
       "name": "MySensors"
     }
   ]

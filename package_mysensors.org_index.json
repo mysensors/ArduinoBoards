@@ -12,7 +12,7 @@
           "help": {
             "online": "https://forums.mysensors.org"
           },
-          "url": "https://github.com/mysensors/ArduinoBoards/boards/mysensors-avr-1.0.0.tar.bz2",
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.0.tar.bz2",
           "checksum": "SHA-256:a2659d411494b2902e9e07365a02833db37814c1a0d988e4b550a04285910756",
           "name": "MySensors AVR Boards",
           "version": "1.0.0",
@@ -29,7 +29,7 @@
         {
           "category": "Contributed",
           "name": "MySensors SAMD Boards",
-          "url": "https://github.com/mysensors/ArduinoBoards/boards/mysensors-samd-1.0.0.tar.bz2",
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.0.tar.bz2",
           "checksum": "SHA-256:5301baced7bdb62db451835395904bd2b3027c3b507fa67ed4d0f9b924c09411",
           "help": {
             "online": "https://forums.mysensors.org"

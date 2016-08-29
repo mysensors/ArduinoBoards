@@ -14,17 +14,17 @@
           },
           "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.0.tar.bz2",
           "checksum": "SHA-256:a2659d411494b2902e9e07365a02833db37814c1a0d988e4b550a04285910756",
-          "name": "MySensors AVR Boards",
           "version": "1.0.0",
           "architecture": "avr",
           "archiveFileName": "mysensors-avr-1.0.0.tar.bz2",
-          "size": "141083",
-          "toolsDependencies": [],
           "boards": [
             {
               "name": "Sensebender Micro"
             }
-          ]
+          ],
+          "size": "141083",
+          "toolsDependencies": [],
+          "name": "MySensors AVR Boards"
         },
         {
           "category": "Contributed",
@@ -33,55 +33,15 @@
           },
           "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.0.tar.bz2",
           "checksum": "SHA-256:5301baced7bdb62db451835395904bd2b3027c3b507fa67ed4d0f9b924c09411",
-          "name": "MySensors SAMD Boards",
           "version": "1.0.0",
           "architecture": "samd",
           "archiveFileName": "mysensors-samd-1.0.0.tar.bz2",
+          "boards": [
+            {
+              "name": "Sensebender GW"
+            }
+          ],
           "size": "142472",
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.6.1-arduino",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "version": "4.0.0-atmel",
-              "name": "CMSIS"
-            }
-          ],
-          "boards": [
-            {
-              "name": "Sensebender GW"
-            }
-          ]
-        },
-        {
-          "category": "Contributed",
-          "help": {
-            "online": "https://forums.mysensors.org"
-          },
-          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.1.tar.bz2",
-          "checksum": "SHA-256:8e1c4e33822778e6f9ef098ab2d0a9c5faf5677197592b6e98d0de3acbf68b3a",
-          "version": "1.0.1",
-          "architecture": "samd",
-          "archiveFileName": "mysensors-samd-1.0.1.tar.bz2",
-          "boards": [
-            {
-              "name": "Sensebender GW"
-            }
-          ],
-          "size": "145091",
           "toolsDependencies": [
             {
               "packager": "arduino",
@@ -108,12 +68,51 @@
         },
         {
           "category": "Contributed",
-          "name": "MySensors AVR Boards",
-          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.1.tar.bz2",
-          "checksum": "SHA-256:7c755472d55e3e1670dbd4721ee6db9dd8f3b9727fda2412e27f1db01f43f892",
           "help": {
             "online": "https://forums.mysensors.org"
           },
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.1.tar.bz2",
+          "checksum": "SHA-256:8e1c4e33822778e6f9ef098ab2d0a9c5faf5677197592b6e98d0de3acbf68b3a",
+          "name": "MySensors SAMD Boards",
+          "version": "1.0.1",
+          "architecture": "samd",
+          "archiveFileName": "mysensors-samd-1.0.1.tar.bz2",
+          "size": "145091",
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.6.1-arduino",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "version": "4.0.0-atmel",
+              "name": "CMSIS"
+            }
+          ],
+          "boards": [
+            {
+              "name": "Sensebender GW"
+            }
+          ]
+        },
+        {
+          "category": "Contributed",
+          "help": {
+            "online": "https://forums.mysensors.org"
+          },
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.1.tar.bz2",
+          "checksum": "SHA-256:7c755472d55e3e1670dbd4721ee6db9dd8f3b9727fda2412e27f1db01f43f892",
           "version": "1.0.1",
           "architecture": "avr",
           "archiveFileName": "mysensors-avr-1.0.1.tar.bz2",
@@ -122,8 +121,49 @@
               "name": "Sensebender Micro"
             }
           ],
+          "size": "144042",
           "toolsDependencies": [],
-          "size": "144042"
+          "name": "MySensors AVR Boards"
+        },
+        {
+          "category": "Contributed",
+          "name": "MySensors SAMD Boards",
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.2.tar.bz2",
+          "checksum": "SHA-256:f0c608d344d2e31c935751fdc80e18757eff90228fe231a4aeef2dd37c17fef2",
+          "help": {
+            "online": "https://forums.mysensors.org"
+          },
+          "version": "1.0.2",
+          "architecture": "samd",
+          "archiveFileName": "mysensors-samd-1.0.2.tar.bz2",
+          "boards": [
+            {
+              "name": "Sensebender GW"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.6.1-arduino",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "version": "4.0.0-atmel",
+              "name": "CMSIS"
+            }
+          ],
+          "size": "599089"
         }
       ],
       "tools": [],

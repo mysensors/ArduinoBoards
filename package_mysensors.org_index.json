@@ -317,6 +317,39 @@
             }
           ],
           "size": "28506"
+        },
+        {
+          "category": "Contributed",
+          "name": "MySensors nRF5 Boards",
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-nrf5-0.2.1.tar.bz2",
+          "checksum": "SHA-256:daa6267a37e719eb92a19e67cdaa99bf1d6aff0bb8ef2567e42f459df61d3ed6",
+          "help": {
+            "online": "https://forums.mysensors.org"
+          },
+          "version": "0.2.1",
+          "architecture": "nRF5",
+          "archiveFileName": "mysensors-nrf5-0.2.1.tar.bz2",
+          "boards": [
+            {
+              "name": "MyBoardNRF5 nRF52832"
+            },
+            {
+              "name": "MyBoardNRF5 nRF51822"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "sandeepmistry",
+              "version": "5_2-2015q4",
+              "name": "gcc-arm-none-eabi"
+            },
+            {
+              "packager": "sandeepmistry",
+              "version": "0.10.0-dev.nrf5",
+              "name": "openocd"
+            }
+          ],
+          "size": "74695"
         }
       ],
       "tools": [],

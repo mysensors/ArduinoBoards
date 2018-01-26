@@ -9,6 +9,11 @@ https://raw.githubusercontent.com/mysensors/ArduinoBoards/master/package_mysenso
 
 ![Arduino preferences dialog](/screenshot/arduino-preferences-dialog.png?raw=true "Arduino preferences dialog")
 
+For the Sensebender Gateway, you'll need to install the Arduino SAMD board as well. Otherwise, you'll get this error:
+```
+The current selected board needs the core 'arduino:arduino' that is not installed.
+```
+
 ## List of 3rd Party Boards
 
 https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls

@@ -14,17 +14,17 @@
           },
           "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.0.tar.bz2",
           "checksum": "SHA-256:a2659d411494b2902e9e07365a02833db37814c1a0d988e4b550a04285910756",
-          "name": "MySensors AVR Boards",
           "version": "1.0.0",
           "architecture": "avr",
           "archiveFileName": "mysensors-avr-1.0.0.tar.bz2",
-          "size": "141083",
-          "toolsDependencies": [],
           "boards": [
             {
               "name": "Sensebender Micro"
             }
-          ]
+          ],
+          "size": "141083",
+          "toolsDependencies": [],
+          "name": "MySensors AVR Boards"
         },
         {
           "category": "Contributed",
@@ -33,10 +33,14 @@
           },
           "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.0.tar.bz2",
           "checksum": "SHA-256:5301baced7bdb62db451835395904bd2b3027c3b507fa67ed4d0f9b924c09411",
-          "name": "MySensors SAMD Boards",
           "version": "1.0.0",
           "architecture": "samd",
           "archiveFileName": "mysensors-samd-1.0.0.tar.bz2",
+          "boards": [
+            {
+              "name": "Sensebender GW"
+            }
+          ],
           "size": "142472",
           "toolsDependencies": [
             {
@@ -60,11 +64,7 @@
               "name": "CMSIS"
             }
           ],
-          "boards": [
-            {
-              "name": "Sensebender GW"
-            }
-          ]
+          "name": "MySensors SAMD Boards"
         },
         {
           "category": "Contributed",
@@ -73,14 +73,10 @@
           },
           "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.1.tar.bz2",
           "checksum": "SHA-256:8e1c4e33822778e6f9ef098ab2d0a9c5faf5677197592b6e98d0de3acbf68b3a",
+          "name": "MySensors SAMD Boards",
           "version": "1.0.1",
           "architecture": "samd",
           "archiveFileName": "mysensors-samd-1.0.1.tar.bz2",
-          "boards": [
-            {
-              "name": "Sensebender GW"
-            }
-          ],
           "size": "145091",
           "toolsDependencies": [
             {
@@ -104,24 +100,9 @@
               "name": "CMSIS"
             }
           ],
-          "name": "MySensors SAMD Boards"
-        },
-        {
-          "category": "Contributed",
-          "help": {
-            "online": "https://forums.mysensors.org"
-          },
-          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.1.tar.bz2",
-          "checksum": "SHA-256:7c755472d55e3e1670dbd4721ee6db9dd8f3b9727fda2412e27f1db01f43f892",
-          "name": "MySensors AVR Boards",
-          "version": "1.0.1",
-          "architecture": "avr",
-          "archiveFileName": "mysensors-avr-1.0.1.tar.bz2",
-          "size": "144042",
-          "toolsDependencies": [],
           "boards": [
             {
-              "name": "Sensebender Micro"
+              "name": "Sensebender GW"
             }
           ]
         },
@@ -130,16 +111,31 @@
           "help": {
             "online": "https://forums.mysensors.org"
           },
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.1.tar.bz2",
+          "checksum": "SHA-256:7c755472d55e3e1670dbd4721ee6db9dd8f3b9727fda2412e27f1db01f43f892",
+          "version": "1.0.1",
+          "architecture": "avr",
+          "archiveFileName": "mysensors-avr-1.0.1.tar.bz2",
+          "boards": [
+            {
+              "name": "Sensebender Micro"
+            }
+          ],
+          "size": "144042",
+          "toolsDependencies": [],
+          "name": "MySensors AVR Boards"
+        },
+        {
+          "category": "Contributed",
+          "help": {
+            "online": "https://forums.mysensors.org"
+          },
           "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.2.tar.bz2",
           "checksum": "SHA-256:f0c608d344d2e31c935751fdc80e18757eff90228fe231a4aeef2dd37c17fef2",
+          "name": "MySensors SAMD Boards",
           "version": "1.0.2",
           "architecture": "samd",
           "archiveFileName": "mysensors-samd-1.0.2.tar.bz2",
-          "boards": [
-            {
-              "name": "Sensebender GW"
-            }
-          ],
           "size": "599089",
           "toolsDependencies": [
             {
@@ -163,7 +159,11 @@
               "name": "CMSIS"
             }
           ],
-          "name": "MySensors SAMD Boards"
+          "boards": [
+            {
+              "name": "Sensebender GW"
+            }
+          ]
         },
         {
           "category": "Contributed",
@@ -172,11 +172,51 @@
           },
           "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.3.tar.bz2",
           "checksum": "SHA-256:ef2072dfd8b0e7ae07a62893a709461c7f68720f8e304f1302d92f205a7d7b59",
-          "name": "MySensors SAMD Boards",
           "version": "1.0.3",
           "architecture": "samd",
           "archiveFileName": "mysensors-samd-1.0.3.tar.bz2",
+          "boards": [
+            {
+              "name": "Sensebender GW"
+            }
+          ],
           "size": "603525",
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.6.1-arduino",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "version": "4.0.0-atmel",
+              "name": "CMSIS"
+            }
+          ],
+          "name": "MySensors SAMD Boards"
+        },
+        {
+          "category": "Contributed",
+          "help": {
+            "online": "https://forums.mysensors.org"
+          },
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.4.tar.bz2",
+          "checksum": "SHA-256:fc4c3ba291aaef06e3ea116a92d01b7342731e22193b160141c1c924f3834a59",
+          "name": "MySensors SAMD Boards",
+          "version": "1.0.4",
+          "architecture": "samd",
+          "archiveFileName": "mysensors-samd-1.0.4.tar.bz2",
+          "size": "613707",
           "toolsDependencies": [
             {
               "packager": "arduino",
@@ -210,17 +250,17 @@
           "help": {
             "online": "https://forums.mysensors.org"
           },
-          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.4.tar.bz2",
-          "checksum": "SHA-256:fc4c3ba291aaef06e3ea116a92d01b7342731e22193b160141c1c924f3834a59",
-          "version": "1.0.4",
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.5.tar.bz2",
+          "checksum": "SHA-256:e124b8b9c96471911eb383cc4f036feecdde0c09c8282e7f4ce90cb1d814e869",
+          "version": "1.0.5",
           "architecture": "samd",
-          "archiveFileName": "mysensors-samd-1.0.4.tar.bz2",
+          "archiveFileName": "mysensors-samd-1.0.5.tar.bz2",
           "boards": [
             {
               "name": "Sensebender GW"
             }
           ],
-          "size": "613707",
+          "size": "615398",
           "toolsDependencies": [
             {
               "packager": "arduino",
@@ -247,52 +287,11 @@
         },
         {
           "category": "Contributed",
-          "name": "MySensors SAMD Boards",
-          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.5.tar.bz2",
-          "checksum": "SHA-256:e124b8b9c96471911eb383cc4f036feecdde0c09c8282e7f4ce90cb1d814e869",
           "help": {
             "online": "https://forums.mysensors.org"
           },
-          "version": "1.0.5",
-          "architecture": "samd",
-          "archiveFileName": "mysensors-samd-1.0.5.tar.bz2",
-          "boards": [
-            {
-              "name": "Sensebender GW"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.6.1-arduino",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "version": "4.0.0-atmel",
-              "name": "CMSIS"
-            }
-          ],
-          "size": "615398"
-        },
-        {
-          "category": "Contributed",
-          "name": "MySensors nRF5 Boards",
           "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-nrf5-0.1.0.tar.bz2",
           "checksum": "SHA-256:4128fd0726b4ade46800b699facb51041b7474829be6dd552ecbda5d90ffa059",
-          "help": {
-            "online": "https://forums.mysensors.org"
-          },
           "version": "0.1.0",
           "architecture": "nRF5",
           "archiveFileName": "mysensors-nrf5-0.1.0.tar.bz2",
@@ -301,9 +300,10 @@
               "name": "MyNRF5Board nRF51822"
             },
             {
-               "name": "MyNRF5Board nRF51822"
+              "name": "MyNRF5Board nRF51822"
             }
           ],
+          "size": "28506",
           "toolsDependencies": [
             {
               "packager": "sandeepmistry",
@@ -316,16 +316,15 @@
               "name": "openocd"
             }
           ],
-          "size": "28506"
+          "name": "MySensors nRF5 Boards"
         },
         {
           "category": "Contributed",
-          "name": "MySensors nRF5 Boards",
-          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-nrf5-0.3.0.tar.bz2",
-          "checksum": "SHA-256:e76ecaab35f3d4339a4d8375ca8199b033891a0b185197805ea46353e5b53983",
           "help": {
             "online": "https://forums.mysensors.org"
           },
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-nrf5-0.3.0.tar.bz2",
+          "checksum": "SHA-256:e76ecaab35f3d4339a4d8375ca8199b033891a0b185197805ea46353e5b53983",
           "version": "0.3.0",
           "architecture": "nRF5",
           "archiveFileName": "mysensors-nrf5-0.3.0.tar.bz2",
@@ -337,6 +336,7 @@
               "name": "MyBoardNRF5 nRF51822"
             }
           ],
+          "size": "84994",
           "toolsDependencies": [
             {
               "packager": "sandeepmistry",
@@ -349,7 +349,26 @@
               "name": "openocd"
             }
           ],
-          "size": "84994"
+          "name": "MySensors nRF5 Boards"
+        },
+        {
+          "category": "Contributed",
+          "name": "MySensors AVR Boards",
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.2.tar.bz2",
+          "checksum": "SHA-256:4ff4ab3c01120329e1df3f8c3bf9cf78e575b788ea15d7994bc9cc7d19338f9a",
+          "help": {
+            "online": "https://forums.mysensors.org"
+          },
+          "version": "1.0.2",
+          "architecture": "avr",
+          "archiveFileName": "mysensors-avr-1.0.2.tar.bz2",
+          "boards": [
+            {
+              "name": "Sensebender Micro"
+            }
+          ],
+          "toolsDependencies": [],
+          "size": "144923"
         }
       ],
       "tools": [],

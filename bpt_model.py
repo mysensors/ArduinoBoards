@@ -21,7 +21,7 @@
 # COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-import ConfigParser
+import configparser
 import hashlib
 import json
 import logging
@@ -148,11 +148,12 @@ class DirectoryBoardPackage(BoardPackage):
         SHA256 hash).
         """
         # Create .tar.bz2 archive of the package directory.
+        # Put files inside a folder with same name as archive (minus extension)
+        arcname = os.path.basename(target)[:-len('.tar.bz2')]
         with tarfile.open(target, 'w:bz2') as archive:
             archive.add(self._directory,
-                # Put files inside a folder with same name as archive (minus extension)
-                arcname=os.path.basename(target)[:-len('.tar.bz2')],
-                exclude=lambda x: x.startswith('.git'))  # Don't add .git folder!
+                arcname=arcname,
+                filter=lambda x: None if x.name.startswith(arcname + '/.git') else x)  # Don't add .git folder!
         # Get the size of the archive.
         size = os.stat(target).st_size
         # Generate a SHA256 hash of the archive.
@@ -281,7 +282,7 @@ class BoardConfig(object):
         """
         self._packages = []
         # Load the INI file and process all the sections.
-        self._config = ConfigParser.RawConfigParser()
+        self._config = configparser.RawConfigParser()
         self._config.read([board_config])
         for section in self._config.sections():
             logger.debug('Processing config file {0} section {1}'.format(board_config, section))
@@ -323,7 +324,7 @@ class BoardConfig(object):
         """Return the specified package (by name), or None if it does not exist
         in the config.
         """
-        packages = filter(lambda x: x.get_name() == package, self._packages)
+        packages = list(filter(lambda x: x.get_name() == package, self._packages))
         if len(packages) == 0:
             return None
         elif len(packages) == 1:

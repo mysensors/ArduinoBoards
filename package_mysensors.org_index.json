@@ -369,6 +369,91 @@
           ],
           "toolsDependencies": [],
           "size": "144923"
+        },
+        {
+          "name": "MySensors AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-avr-1.0.3.tar.bz2",
+          "archiveFileName": "mysensors-avr-1.0.3.tar.bz2",
+          "checksum": "SHA-256:b4fad46657ae03b25c1d5154f62bc60b515397f2d0209d106e66bd4fe412c56c",
+          "size": "50686",
+          "help": {
+            "online": "https://forum.mysensors.org"
+          },
+          "boards": [
+            {
+              "name": "Sensebender Micro"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "5.4.0-atmel3.6.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino14"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
+          "name": "MySensors SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.6",
+          "category": "Contributed",
+          "url": "https://github.com/mysensors/ArduinoBoards/raw/master/boards/mysensors-samd-1.0.6.tar.bz2",
+          "archiveFileName": "mysensors-samd-1.0.6.tar.bz2",
+          "checksum": "SHA-256:7f520244bfacf70c47e039dbd403602a1e37670e7dd0edd42882a9f0740dea01",
+          "size": "179021",
+          "help": {
+            "online": "https://forum.mysensors.org"
+          },
+          "boards": [
+            {
+              "name": "Sensebender GW"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
         }
       ],
       "tools": [],
